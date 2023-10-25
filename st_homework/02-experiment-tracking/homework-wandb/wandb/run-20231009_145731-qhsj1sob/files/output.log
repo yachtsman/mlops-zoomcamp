@@ -1,0 +1,16 @@
+
+[34m[1mwandb[39m[22m:   4 of 4 files downloaded.
+Traceback (most recent call last):
+  File "/mnt/c/ds_local/mlops-zoomcamp/st_homework/02-experiment-tracking/homework-wandb/train.py", line 68, in <module>
+    run_train()
+  File "/home/ts/mambaforge/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ts/mambaforge/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+  File "/home/ts/mambaforge/envs/wandb/lib/python3.9/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ts/mambaforge/envs/wandb/lib/python3.9/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+  File "/mnt/c/ds_local/mlops-zoomcamp/st_homework/02-experiment-tracking/homework-wandb/train.py", line 55, in run_train
+    "MSE": mse(y_val, y_pred),
+TypeError: 'numpy.float64' object is not callable

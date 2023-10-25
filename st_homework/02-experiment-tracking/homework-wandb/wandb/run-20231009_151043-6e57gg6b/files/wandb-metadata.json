@@ -1,0 +1,115 @@
+{
+    "os": "Linux-5.15.90.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-10-09T13:10:44.780870",
+    "startedAt": "2023-10-09T13:10:43.501276",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb_project",
+        "mlops-zoomcamp",
+        "--wandb_entity",
+        "yachtsman-ua",
+        "--data_artifact",
+        "yachtsman-ua/mlops-zoomcamp/NYC-Taxi:v0"
+    ],
+    "state": "running",
+    "program": "/mnt/c/ds_local/mlops-zoomcamp/st_homework/02-experiment-tracking/homework-wandb/sweep.py",
+    "codePathLocal": "sweep.py",
+    "codePath": "st_homework/02-experiment-tracking/homework-wandb/sweep.py",
+    "git": {
+        "remote": "https://github.com/DataTalksClub/mlops-zoomcamp.git",
+        "commit": "994383128b05d780be34cf1e83b3e9bc21e7ee95"
+    },
+    "email": null,
+    "root": "/mnt/c/ds_local/mlops-zoomcamp",
+    "host": "y-dell",
+    "username": "ts",
+    "executable": "/home/ts/mambaforge/envs/wandb/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2591.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2591.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 25.963794708251953
+        }
+    },
+    "gpu": "Quadro T2000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro T2000",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.485450744628906
+    }
+}
