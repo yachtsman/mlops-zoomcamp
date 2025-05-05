@@ -7,14 +7,16 @@ import pickle
 import pandas as pd
 
 
-year = int(sys.argv[1]) # 2022
-month = int(sys.argv[2]) # 2
+year = int(sys.argv[1]) # 2023
+month = int(sys.argv[2]) # 4
 
 input_file = f'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{year:04d}-{month:02d}.parquet'
 output_file = f'output/yellow_tripdata_{year:04d}-{month:02d}.parquet'
 
 
-with open('model.bin', 'rb') as f_in:
+MODEL_FILE = os.getenv('MODEL_FILE', 'model.bin')
+
+with open(MODEL_FILE, 'rb') as f_in:
     dv, lr = pickle.load(f_in)
 
 
@@ -51,6 +53,7 @@ df_result['predicted_duration'] = y_pred
 
 
 os.makedirs('output', exist_ok=True)
+
 df_result.to_parquet(
     output_file,
     engine='pyarrow',

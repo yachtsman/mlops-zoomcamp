@@ -1,4 +1,4 @@
-FROM svizor/zoomcamp-model:mlops-3.10.0-slim
+FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
 
 RUN pip install -U pip & pip install pipenv
 
